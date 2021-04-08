@@ -21,7 +21,7 @@ const Book = (props) => {
                 <div class="card-footer custom-card-footer d-flex justify-content-between align-items-center">
                     <h3 class="price-tag orange-font">$ {bookPrice}</h3>
                     <Link to={`/checkout/${_id}`} className="text-decoration-none">
-                        <button class="btn btn-info custom-button d-flex align-items-center">
+                        <button class="btn custom-button d-flex align-items-center">
                             <FontAwesomeIcon icon={faShoppingCart} className='me-3' />Buy Now</button>
                     </Link>
                 </div>

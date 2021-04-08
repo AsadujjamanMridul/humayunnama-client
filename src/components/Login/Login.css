@@ -15,7 +15,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16pt;
-    color: #0d335d;
+    color: #28527a;
 }
 
 .error{
@@ -39,7 +39,7 @@
     font-weight: 500;
     font-size: 12pt;
     padding: 8px 20px !important;
-    background-color: #FF6E40 !important;
+    background-color: #28527a !important;
     border: none !important;
     border-radius: 3px !important;
     color: white !important;
@@ -48,20 +48,23 @@
 
 .submit-button:hover{
     background-color: white !important;
-    color:  #FF6E40!important;
+    color: #28527a !important;
 }
 
 .submit-button:disabled{
-    background-color:  rgba(255, 110, 64, .6)!important;
+    background-color:  rgba(40, 82, 122, .5) !important;
 }
 .submit-button:disabled:hover{
     color: white !important;
 }
 
 .create-acc-link{
-    color:  #FF6E40!important;
+    color:  #28527a!important;
     text-decoration: underline;
     cursor: pointer;
+}
+.create-acc-link:disabled{
+    color:  rgba(40, 82, 122, .5) !important;
 }
 
 hr{

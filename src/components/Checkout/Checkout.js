@@ -15,7 +15,7 @@ const Checkout = () => {
 
     const [selectedBook, setSelectedBook] = useState({});
     useEffect(() => {
-        fetch('http://localhost:5055/books')
+        fetch('https://agile-inlet-51437.herokuapp.com/books')
             .then(res => res.json())
             .then(data => {
                 data.find((book) => {
@@ -38,7 +38,7 @@ const Checkout = () => {
             orderTime: new Date().toDateString()
         }
 
-        fetch('http://localhost:5055/placeOrder', {
+        fetch('https://agile-inlet-51437.herokuapp.com/placeOrder', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

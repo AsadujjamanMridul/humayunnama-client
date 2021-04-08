@@ -14,13 +14,13 @@ const ManageBooks = () => {
     // Get All Books Information
     const [books, setBooks] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5055/books')
+        fetch('https://agile-inlet-51437.herokuapp.com/books')
             .then(res => res.json())
             .then(data => setBooks(data));
     }, [])
 
     const deleteBook = (event, id) => {
-        fetch(`http://localhost:5055/delete/${id}`, {
+        fetch(`https://agile-inlet-51437.herokuapp.com/delete/${id}`, {
             method: "DELETE"
         })
             .then(res => res.json())
@@ -28,7 +28,7 @@ const ManageBooks = () => {
                 if (result) {
                     alert("Book deleted successfully");
 
-                    fetch('http://localhost:5055/books')
+                    fetch('https://agile-inlet-51437.herokuapp.com/books')
                         .then(res => res.json())
                         .then(data => setBooks(data));
                 }

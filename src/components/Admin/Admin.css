@@ -13,3 +13,15 @@
     border-radius: 10px !important;
     background-color: #0d325d11 !important;
 }
+
+.light-yellow-bg{
+    background-color: #fbeeac;
+}
+
+.manage-book-button{
+    background-color: #28527a !important;
+}
+
+.manage-book-button :hover{
+    background-color: #f4d160 !important;
+}

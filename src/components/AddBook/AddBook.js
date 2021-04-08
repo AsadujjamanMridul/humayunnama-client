@@ -19,7 +19,7 @@ const AddBook = () => {
             bookPrice: data.bookPrice,
             imageURL: imageURL
         };
-        const url = "http://localhost:5055/addBook";
+        const url = "https://agile-inlet-51437.herokuapp.com/addBook";
 
         fetch(url, {
             method: "POST",
@@ -55,7 +55,7 @@ const AddBook = () => {
     }
 
     return (
-        <div className="col-md-8 col-lg-9 m-0 pt-5 px-5 d-flex justify-content-center align-items-center vh-100">
+        <div className="col-md-8 col-lg-9 m-0 pt-5 px-5 d-flex justify-content-center align-items-center vh-100 ">
                 <form className="container px-5" onSubmit={handleSubmit(onSubmit)}>
                     <div className="mb-3">
                         <label htmlFor="bookName" className="form-label">Book Name</label>
@@ -77,7 +77,7 @@ const AddBook = () => {
                         <input className="form-control" type="file" id="formFile" onChange={(event) => handleImageUpload(event)} />
                     </div>
                     <div className="d-flex justify-content-end mt-5">
-                        <input type="submit" className="btn btn-primary px-4 py-2" value="Save" />
+                        <input type="submit" className="btn btn-primary px-4 py-2 nav-login-btn" value="Save" />
                     </div>
                 </form>
             </div>

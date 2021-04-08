@@ -1,25 +1,17 @@
-.orange-font{
-    color: #FA804C;
-}
-
-.blue-font{
-    color: #363958;
-}
-
-.roboto-16{
+.roboto-16 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #3E3E3E;
 }
 
-.rounded-20{
+.rounded-20 {
     border-radius: 20px;
 }
 
-.custom-button{
+.custom-button {
     text-decoration: none;
     text-transform: uppercase;
-    background-image: linear-gradient(#3D4FF3,#3543BC);
+    background-color: #28527a;
     padding: 15px 20px;
     border-radius: 8px;
     color: white;
@@ -27,61 +19,75 @@
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
     border: 0;
+    transition: background-color 0.2s ease-in-out;
 }
 
-.custom-button:hover{
-    background-image: linear-gradient(#FA804C,#d66433);
-    transition-duration: .2s;
+.custom-button:hover {
+    background-color: white;
+    color: #28527a;
 }
 
-header, footer{
+header, footer {
     background-color: #FFF9F4;
 }
 
-.nav-font{
+.nav-font {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
 
-.banner{
+.banner {
     padding-bottom: 8em;
 }
 
-.banner-font{
+.banner-font {
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     line-height: 1;
 }
 
-.category-header{
+.category-header {
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     line-height: 2em;
 }
 
-.bg-casual-shoe{
+.bg-casual-shoe {
     background-color: #f1f1f1;
 }
 
-.custom-card{
+.custom-card {
     border: 0;
-    box-shadow: 0 10px 30px rgba(0,0,0,.07);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .07);
+    transition: background-color 0.2s ease-in-out;
 }
 
-.custom-card-title{
+.card-footer {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.custom-card:hover {
+    background-color: #fbeeac;
+}
+
+.custom-card:hover .card-footer {
+    background-color: #fbeeac;
+}
+
+.custom-card-title {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     line-height: 1.5em;
 }
 
-.custom-card-footer{
+.custom-card-footer {
     border: 0;
     background-color: white;
     margin-bottom: 1em;
 }
 
-.price-tag{
+.price-tag {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16pt;

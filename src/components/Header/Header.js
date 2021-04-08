@@ -19,8 +19,8 @@ const Header = () => {
     }
 
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light py-2 mt-2">
+        <div className="sticky-top navbar-bg m-0 p-0 shadow-sm">
+            <nav className="navbar navbar-expand-lg navbar-light py-3 navbar-bg sticky-top">
                 <div className="container">
                     <Link className="navbar-brand travelsphere" to="/">হুমায়ূননামা</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

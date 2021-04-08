@@ -13,12 +13,18 @@
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 400;
+    font-weight: 500 !important;
     font-size: 13pt !important;
+    color: #28527a !important;
+}
+
+.nav-link:hover {
+    background-color: #fbeeac !important;
+    border-radius: 5px;
 }
 
 .nav-login-btn {
-    background-color: #FF6E40 !important;
+    background-color: #28527a !important;
     border-radius: 5px;
     color: white !important;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -26,10 +32,14 @@
 
 .nav-login-btn:hover {
     background-color: white !important;
-    color: #FF6E40 !important;
+    color: #28527a !important;
 }
 
 .userName{
-    color: #0d335d !important;
+    color: #28527a !important;
     font-weight: 600;
+}
+
+.navbar-bg{
+    background-color: #f4d160;
 }
