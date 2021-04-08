@@ -5,6 +5,9 @@ import './Admin.css'
 import AddBook from '../AddBook/AddBook';
 import ManageBooks from '../ManageBooks/ManageBooks';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTasks, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
+
 const Admin = () => {
 
 
@@ -34,8 +37,11 @@ const Admin = () => {
                     </Link>
 
                     <div className="navbar-nav">
-                        <button onClick={manageBooksDisplay} className="nav-link btn btn-transparent py-3" aria-current="page" to="/home">Manage Product</button>
-                        <button onClick={addBookDisplay} className="nav-link btn btn-transparent py-3" aria-current="page" to="/home">Add Product</button>
+                        <button onClick={manageBooksDisplay} className="nav-link btn btn-transparent py-3" aria-current="page">
+                            <FontAwesomeIcon icon={faTasks} className="me-3"/>Manage Product
+                            </button>
+                        <button onClick={addBookDisplay} className="nav-link btn btn-transparent py-3" aria-current="page">
+                        <FontAwesomeIcon icon={faPlusSquare} className="me-3"/>Add Product</button>
                     </div>
 
                 </div>

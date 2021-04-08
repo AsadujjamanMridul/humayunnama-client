@@ -88,7 +88,7 @@ const Checkout = () => {
                 </div>
 
                 <div className="d-flex justify-content-end">
-                    <button onClick={handleCheckout} className="btn btn-info px-4 py-3 mt-5 custom-button">Checkout</button>
+                    <button onClick={handleCheckout} className="btn btn-info px-4 py-3 mt-5 nav-login-btn">Checkout</button>
                 </div>
 
             </div>

@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { useForm } from 'react-hook-form';
 import './Login.css'
 
 import firebase from "firebase/app";
@@ -8,7 +7,7 @@ import "firebase/auth";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons'
 
-import { Link, Redirect, useHistory, useLocation, useParams } from 'react-router-dom';
+import { Link, useHistory, useLocation, useParams } from 'react-router-dom';
 import { UserContext } from '../../App'
 import Header from '../Header/Header';
 import firebaseConfig from '../../firebase.config';
@@ -25,14 +24,6 @@ const Login = () => {
     if (!firebase.apps.length) {
         firebase.initializeApp(firebaseConfig);
     }
-
-    // const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    // const onSubmit = data => console.log(data);
-
-    // const onLogIn = data => {
-    //     const { email, password } = data;
-    //     console.log(email, password);
-    // }
 
     const handleGoogleSignIn = () => {
         const googleProvider = new firebase.auth.GoogleAuthProvider();

@@ -2,14 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
-import { useHistory } from 'react-router';
 
 import './ManageBooks.css'
 
 const ManageBooks = () => {
-
-    const history = useHistory();
-
 
     // Get All Books Information
     const [books, setBooks] = useState([]);
