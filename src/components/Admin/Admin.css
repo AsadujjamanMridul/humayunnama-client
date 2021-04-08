@@ -1,0 +1,15 @@
+.side-nav{
+    height: 98vh;
+}
+
+.admin-header{
+    color: #0d335d !important;
+    font-family: "Shurjo";
+    font-weight: 700;
+    font-size: 25pt !important;
+}
+
+.custom-table-header{
+    border-radius: 10px !important;
+    background-color: #0d325d11 !important;
+}

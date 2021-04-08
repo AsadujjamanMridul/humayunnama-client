@@ -1,0 +1,88 @@
+.orange-font{
+    color: #FA804C;
+}
+
+.blue-font{
+    color: #363958;
+}
+
+.roboto-16{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+.rounded-20{
+    border-radius: 20px;
+}
+
+.custom-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(#3D4FF3,#3543BC);
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    border: 0;
+}
+
+.custom-button:hover{
+    background-image: linear-gradient(#FA804C,#d66433);
+    transition-duration: .2s;
+}
+
+header, footer{
+    background-color: #FFF9F4;
+}
+
+.nav-font{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner{
+    padding-bottom: 8em;
+}
+
+.banner-font{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.category-header{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    line-height: 2em;
+}
+
+.bg-casual-shoe{
+    background-color: #f1f1f1;
+}
+
+.custom-card{
+    border: 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,.07);
+}
+
+.custom-card-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.custom-card-footer{
+    border: 0;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+.price-tag{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+}
