@@ -35,7 +35,7 @@ There is also an admin panel for managing inventory and adding new books to the 
 #### Checkout Page
 ![](screenshots/checkout.png)
 #### Orders Dashboard
-![](screenshots/orders.png)
+![](screenshots/Orders.png)
 
 ###### `Thank you`
 
