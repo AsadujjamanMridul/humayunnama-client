@@ -10,7 +10,32 @@ User can select any book for checkout. But before that user have to have an acco
 There is also an admin panel for managing inventory and adding new books to the database. Although we didn't actually filtered user to check whether his role is admin or not, rather anyone can access the inventory by this web application. This was only for development purpose. You can definitely check it out!
 
 
+### Technology Used
+• MERN Stack <br/>
+<br/>
+• Firebase Auth <br/>
+• Firebase Hosting <br/>
+<br/>
+• React Router <br/>
+• React Hook Form <br/>
+• Private Route <br/>
+• Bootstrap
+
+
 ## [Live Site](https://humayun-nama.firebaseapp.com/)
+
+
+### Screenshots
+#### Landing Page
+![](screenshots/landing.png)
+<br/>
+#### Login Page
+![](screenshots/login.png)
+<br/>
+#### Checkout Page
+![](screenshots/checkout.png)
+#### Orders Dashboard
+![](screenshots/orders.png)
 
 ###### `Thank you`
 
